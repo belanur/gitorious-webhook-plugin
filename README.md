@@ -17,4 +17,4 @@ The .hpi file can be uploaded to Jenkins from the plugin manager (tab 'advanced'
 
 How does it work?
 ------------------------
-The plugin extracts the repository url from the JSON WebHook payload and passes it to the notifyCommit action of the Git Plugin. Passing branches or commit sha1 hashes is not supported yet.
+The plugin extracts the repository url from the JSON WebHook payload and passes it to the notifyCommit action of the Git Plugin. Passing branches or commit hashes is not supported yet.
